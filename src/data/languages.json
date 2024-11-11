@@ -1,0 +1,35 @@
+[
+    {
+      "title": "PYTHON",
+      "imageSrc": "language/python.png"
+    },
+    {
+      "title": "JAVASCRIPT",
+      "imageSrc": "language/js.png"
+    },
+    {
+      "title": "HTML CSS",
+      "imageSrc": "language/html_css.png"
+    },
+    {
+      "title": "JAVA",
+      "imageSrc": "language/java.png"
+    },
+    {
+      "title": "PHP",
+      "imageSrc": "language/php.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "language/sql.png"
+    },
+    {
+      "title": "REACT",
+      "imageSrc": "language/react.png"
+    },
+    {
+      "title": "SHELL",
+      "imageSrc": "language/shell.png"
+    }
+  ]
+   

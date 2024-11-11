@@ -1,0 +1,19 @@
+[
+    {
+      "title": "POSTGRESQL",
+      "imageSrc": "bdd/postgresql.png"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "bdd/mysql.png"
+    },
+    {
+      "title": "POSTGIS",
+      "imageSrc": "bdd/postgis.png"
+    },
+    {
+      "title": "DBEAVER",
+      "imageSrc": "bdd/dbeaver.png"
+    }
+  ]
+   

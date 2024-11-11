@@ -1,0 +1,22 @@
+[
+  {
+    "role": "Géomaticien",
+    "organisation": "PNR Caps et Marais d'Opale",
+    "startDate": "Avril, 2024",
+    "endDate": "Octobre, 2024",
+    "experiences": ["Applications cartographiques webSIG (GEO Générateur)", "Conception et gestion de la base de données", "Alimentation de la base de données"],
+    "imageSrc": "history/pnr.png"
+  },
+
+
+  {
+    "role": "Ingénieur évaluateur de bâtiment",
+    "organisation": "MTPTC - HAITI",
+    "startDate": "Oct, 2021",
+    "endDate": "Aug, 2022",
+    "experiences": ["Diagnostic des bâtiments post catastrophe naturelle", "Évaluation de la sécurité des bâtiments", "Mesure des dommages structurels et non-structuraux", "Évaluation de la viabilité des réparations (Rouge, Jaune, Vert)"],
+    "imageSrc": "history/haiti.png"
+  }
+]
+
+

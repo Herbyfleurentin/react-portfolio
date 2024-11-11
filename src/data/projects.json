@@ -1,0 +1,27 @@
+[
+  {
+    "title": "SPACE -MOUNTAINS",
+    "imageSrc": "projects/space.png",
+    "description": "Il s'agit d'un magazine, ainsi que de ses cartes et de ses créations graphiques, réalisé par les étudiants de Carthagéo suivant leur Master en 2024.",
+    "skills": ["QGIS", "ArcGIS", "Illustrator", "InDesign", "Excel", "RStudio"],
+    "demo": "https://github.com/Herbyfleurentin/Projet-academique",
+    "source": "https://github.com/Herbyfleurentin/Projet-academique/blob/main/02.pdf"
+  },
+
+  {
+    "title": "Portail WebSIG",
+    "imageSrc": "projects/pnr.png",
+    "description": "Il s'agit d'une application cartographique conçue sur GEO Générateur pour visualiser l'évolution du territoire du Parc durant sa période de révision de sa Charte 2029-2044.",
+    "skills": ["GEO générateur", "PostGIS", "HTML-CSS"],
+    "demo": "https://geo.parc-opale.fr/adws/app/5f8b2c0c-5306-11ef-8855-df46ceb17fab/",
+    "source": "https://www.parc-opale.fr/"
+  },
+  {
+    "title": "Script de géocodage d'adresse",
+    "imageSrc": "projects/geocoding.gif",
+    "description": "Le script géocode un fichier CSV contenant des adresses, récupère les coordonnées géographiques correspondantes via une API, et crée une couche de points géographiques dans QGIS avec les résultats obtenus",
+    "skills": ["QGIS", "Python", "Vs-code"],
+    "demo": "projects/geocoding.gif",
+    "source": "https://github.com/Herbyfleurentin/PyQGIS/blob/main/Script_geocodage.py"
+  }
+]

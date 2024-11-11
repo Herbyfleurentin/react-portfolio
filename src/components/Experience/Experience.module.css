@@ -1,0 +1,176 @@
+/* Style global de la section container */
+.container {
+  color: var(--color-text); /* Définit la couleur du texte à partir de la variable CSS --color-text */
+  margin-top: 79px; /* Ajoute une marge en haut de 79px */
+  margin-left: 10%; /* Définit une marge à gauche de 10% de la largeur de l'élément parent */
+  margin-right: 10%; /* Définit une marge à droite de 10% de la largeur de l'élément parent */
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%); /* Définit la couleur de fond du container (bleu foncé) */
+  padding-bottom: 50px; /* Ajoute un padding (espace interne) en bas de 50px pour espacer la fin du container */
+}
+
+/* Style du titre principal */
+.title {
+  color: var(--color-text); /* Définit la couleur du texte à partir de la variable --color-text */
+  font-size: 35px; /* Définit la taille de police à 35px */
+  font-weight: 700; /* Définit le poids de la police à 700 (gras) */
+  letter-spacing: 1.75px; /* Ajoute un espacement de 1.75px entre les lettres */
+  text-transform: uppercase; /* Met tout le texte en majuscules */
+  text-align: center; /* Centre le texte horizontalement */
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #1367dd;
+  border-radius: 10px;
+}
+
+/* Style du sous-titre */
+.sousTitle {
+  color: var(--color-text); /* Définit la couleur du texte à partir de la variable --color-text */
+  text-align: center; /* Centre le texte horizontalement */
+  font-size: 15px; /* Définit la taille de police à 15px */
+  letter-spacing: 1.75px; /* Ajoute un espacement de 1.75px entre les lettres */
+  margin-bottom: 50px;
+}
+
+/* Style global pour le contenu (contient les sections skills, bdd, history) */
+.content {
+  display: flex; /* Utilise Flexbox pour organiser les éléments enfants */
+  flex-direction: column; /* Organise les éléments enfants en colonne (verticalement) */
+  justify-content: space-evenly; /* Distribue les éléments enfants de manière égale */
+  margin-top: 14px; /* Ajoute une marge de 14px en haut */
+  gap: 30px; /* Ajoute un écart de 30px entre chaque section */
+}
+
+/* Style commun pour les sections skills, bdd, et history */
+.skills, .bdd, .history, .languages {
+  width: 100%; /* Définit la largeur des sections à 100% */
+  justify-content: center; /* Centre l'image horizontalement */
+
+}
+
+/* Style spécifique à la section skills */
+.skills {
+  display: flex; /* Utilise Flexbox pour organiser les éléments enfants */
+  flex-wrap: wrap; /* Permet aux éléments de se répartir sur plusieurs lignes si nécessaire */
+  gap: 37px; /* Ajoute un écart de 37px entre les éléments */
+}
+
+/* Style spécifique à la section skills */
+.languages {
+  display: flex; /* Utilise Flexbox pour organiser les éléments enfants */
+  flex-wrap: wrap; /* Permet aux éléments de se répartir sur plusieurs lignes si nécessaire */
+  gap: 37px; /* Ajoute un écart de 37px entre les éléments */
+}
+
+/* Style spécifique à chaque élément de skill */
+.skill, .bddItem, .language {
+  display: flex; /* Utilise Flexbox pour organiser les éléments enfants */
+  flex-direction: column; /* Organise les éléments enfants en colonne */
+  align-items: center; /* Centre les éléments enfants horizontalement */
+  gap: 11px; /* Ajoute un écart de 11px entre les éléments */
+}
+
+/* Conteneur pour l'image d'une skill ou d'une base de données */
+.skillImageContainer, .dbbImageContainer, .languageImageContainer {
+  background-color: var(--color-secondary); /* Définit la couleur de fond à partir de la variable --color-secondary */
+  border-radius: 100%; /* Donne au conteneur une forme circulaire */
+  display: flex; /* Utilise Flexbox pour aligner l'image au centre */
+  align-items: center; /* Centre l'image verticalement */
+  justify-content: center; /* Centre l'image horizontalement */
+  width: 120px; /* Définit la largeur du conteneur à 120px */
+  height: 120px; /* Définit la hauteur du conteneur à 120px */
+}
+
+
+/* Taille de l'image dans le conteneur skillImageContainer ou dbbImageContainer */
+.skillImageContainer img, .dbbImageContainer img, .languageImageContainer img {
+  width: 75px; /* Définit la largeur de l'image à 75px */
+}
+
+/* Style du texte sous chaque image de skill ou base de données */
+.skill p, .bddItem p, .language p {
+  font-size: 25px; /* Définit la taille de police à 25px */
+  font-family: var(--font-roboto); /* Définit la police à la valeur de la variable --font-roboto */
+  font-weight: 500; /* Définit le poids de la police à 500 */
+}
+
+/* Style spécifique à la section bdd */
+.bdd {
+  display: flex; /* Utilise Flexbox pour organiser les éléments enfants */
+  flex-wrap: wrap; /* Permet aux éléments de se répartir sur plusieurs lignes si nécessaire */
+  gap: 37px; /* Ajoute un écart de 37px entre les éléments */
+}
+
+
+
+/* Style spécifique à la section history */
+.history {
+  display: flex; /* Utilise Flexbox pour organiser les éléments enfants */
+  flex-direction: column; /* Organise les éléments enfants en colonne */
+  align-items: center; /* Centre les éléments enfants verticalement */
+  gap: 40px; /* Ajoute un écart de 40px entre les éléments */
+  width: 100%; /* Définit la largeur de la section à 45% */
+}
+
+/* Style pour chaque élément d'histoire */
+.historyItem {
+  display: flex; /* Utilise Flexbox pour organiser les éléments enfants */
+  flex-direction: column; /* Organise les éléments enfants en ligne (horizontalement) */
+  align-items: center; /* Centre les éléments enfants verticalement */
+  gap: 17px; /* Ajoute un écart de 17px entre les éléments */
+  background: #19376d; /* Définit un fond bleu foncé */
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%); /* Ajoute un fond dégradé */
+  border-radius: 10px; /* Arrondit les coins du conteneur */
+  padding: 24px; /* Ajoute un padding de 24px autour de l'élément */
+}
+
+/* Taille de l'image dans chaque item d'histoire */
+.historyItem img {
+  width: 50px; /* Définit la largeur de l'image à 50px */
+  align-items: center;
+}
+
+/* Style des détails de chaque item d'histoire */
+.historyItemDetails {
+  font-family: var(--font-roboto); /* Définit la police à la valeur de la variable --font-roboto */
+  
+}
+
+/* Style du titre dans les détails d'histoire */
+.historyItemDetails h3 {
+  font-size: 30px; /* Définit la taille de police à 30px */
+  font-weight: 500; /* Définit le poids de la police à 500 */
+}
+
+/* Style du paragraphe dans les détails d'histoire */
+.historyItemDetails p {
+  font-size: 20px; /* Définit la taille de police à 20px */
+  font-weight: 300; /* Définit le poids de la police à 300 */
+}
+
+/* Style des listes dans les détails d'histoire */
+.historyItemDetails ul {
+  margin-top: 6px; /* Ajoute une marge de 6px en haut de la liste */
+  list-style-position: inside; /* Place les puces à l'intérieur du bloc de la liste */
+  font-size: 25px; /* Définit la taille de police à 25px */
+  list-style-type: disc; /* Définit le type de puces à des disques */
+  margin-left: 17px; /* Ajoute une marge de 17px à gauche de la liste */
+}
+
+/* Media query pour les écrans avec une largeur maximale de 830px */
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column; /* Change la direction des éléments en colonne (verticalement) */
+    align-items: center; /* Centre les éléments horizontalement */
+    gap: 34px; /* Ajoute un écart de 34px entre les éléments */
+  }
+
+  .skills {
+    width: 100%; /* Définit la largeur de la section skills à 100% */
+    flex-direction: row; /* Organise les éléments en ligne (horizontalement) */
+    justify-content: center; /* Centre les éléments horizontalement */
+  }
+
+  .history {
+    width: 100%; /* Définit la largeur de la section history à 100% */
+    gap: 9px; /* Ajoute un écart de 9px entre les éléments */
+  }
+}

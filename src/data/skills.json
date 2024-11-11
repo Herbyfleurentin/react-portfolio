@@ -1,0 +1,30 @@
+[
+  {
+    "title": "QGIS",
+    "imageSrc": "skills/qgis.png"
+  },
+  {
+    "title": "ARCGIS",
+    "imageSrc": "skills/arcgis.png"
+  },
+  {
+    "title": "GEO",
+    "imageSrc": "skills/geo.png"
+  },
+  {
+    "title": "LIZMAP",
+    "imageSrc": "skills/lizmap.png"
+  },
+  {
+    "title": "FME",
+    "imageSrc": "skills/fme.png"
+  },
+  {
+    "title": "GEOSERVER",
+    "imageSrc": "skills/geoserver.png"
+  },
+  {
+    "title": "LEAFLET",
+    "imageSrc": "skills/leaflet.png"
+  }
+]

@@ -7,7 +7,7 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Salut, je m'appelle Herby</h1>
-                <p className={styles.description}>Je suis jeune diplômé en carthagéo (cartographie et géomatique), avec de solides compétences en cartographie, analyse spatiale et géomatique. Curieux d’en savoir plus ?</p>
+                <p className={styles.description}>Je suis jeune diplômé en carthagéo (cartographie et géomatique), avec de compétences en cartographie, analyse spatiale et géomatique. Curieux d’en savoir plus ?</p>
                 <a href="mailto:fleurentinherby@yahoo.fr" className={styles.contactBtn}>Contactez-moi</a>
             </div>
             <img

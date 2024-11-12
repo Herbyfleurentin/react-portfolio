@@ -1,5 +1,5 @@
 {
-  "homepage": "https://herbyfleurentin.github.io/react-portfolioApp",
+  "homepage": "https://herbyfleurentin.github.io/react-portfolio",
   "name": "react-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },

@@ -23,5 +23,13 @@
     "skills": ["QGIS", "Python", "Vs-code"],
     "demo": "projects/geocoding.gif",
     "source": "https://github.com/Herbyfleurentin/PyQGIS/blob/main/Script_geocodage.py"
+  } ,
+  {
+    "title": "Projet JO",
+    "imageSrc": "projects/JO.png",
+    "description": "Stratégie sportive de quatre (4) pays d'Europe centrale issus de l'effondrement de l'Empire Austro-hongrois de 2018 à 2020",
+    "skills": ["PostGIS", "SQL", "JavaScript", "Leaflet", "HTML-CSS"],
+    "demo": "projects/JoProjet2024.pdf",
+    "source": "https://github.com/Herbyfleurentin/Projet-JO-2024-"
   }
 ]

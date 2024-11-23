@@ -16,7 +16,14 @@
     "endDate": "Aug, 2022",
     "experiences": ["Diagnostic des bâtiments post catastrophe naturelle", "Évaluation de la sécurité des bâtiments", "Mesure des dommages structurels et non-structuraux", "Évaluation de la viabilité des réparations (Rouge, Jaune, Vert)"],
     "imageSrc": "history/haiti.png"
+  },
+
+  {
+    "role": "Ingénieur Bénévole",
+    "organisation": "SOS Développement, Anse-à-Veau – HAÏTI",
+    "startDate": "Août , 2021",
+    "endDate": "Sept, 2021",
+    "experiences": ["Inspection des bâtiments scolaires endommagés", "Inventaire des pertes matérielles", "Élaboration de plans de réhabilitation"],
+    "imageSrc": "history/haiti.png"
   }
 ]
-
-
